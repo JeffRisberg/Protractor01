@@ -1,0 +1,11 @@
+{
+  "name": "Protractor01",
+  "version": "1.0.0",
+  "description": "Protractor Example Set 1",
+  "author": "Jeff Risberg",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.7.2",
+    "babel-register": "^6.7.2"
+  }
+}
