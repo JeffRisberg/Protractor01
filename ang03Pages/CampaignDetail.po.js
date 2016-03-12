@@ -9,7 +9,7 @@ class CampaignDetail {
     }
 
     getCampaignName() {
-        var e = element(by.xpath("//tr[1]//td[2]"))
+        var e = element(by.xpath("//tr[1]//td[2]"));
         return e.getText();
     }
 }
