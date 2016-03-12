@@ -11,7 +11,7 @@ class AccountGrid {
     }
 
     toDetail(text) {
-        var e = element(by.xpath("//*[contains(text(),'" + text + "')]"));
+        var e = element.all(by.xpath("//*[contains(text(),'" + text + "')]")).first();
         return new AccountDetail(e);
     }
 }
