@@ -17,6 +17,8 @@ describe('ANG03 test', function () {
         var accountDetailPage = accountGrid.toDetail('Paychex');
 
         expect(accountDetailPage.getHeaderText()).toEqual("Edit Account");
+
+        expect(accountDetailPage.getAccountName()).toEqual("Paychex");
     });
 
     it('should access Campaigns page', function () {
@@ -29,5 +31,7 @@ describe('ANG03 test', function () {
         var campaignDetailPage = campaignGrid.toDetail('Travel:Cruises');
 
         expect(campaignDetailPage.getHeaderText()).toEqual("Edit Campaign");
+
+        expect(campaignDetailPage.getCampaignName()).toEqual("Travel:Cruises");
     });
 });
